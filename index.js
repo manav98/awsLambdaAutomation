@@ -75,7 +75,7 @@ exports.handler = async (event, context, callback) => {
 
 //added the comment - 1
 
-  console.log('Successfully resized ' + srcBucket + '/' + srcKey +
+  console.log('Successfully updated ' + srcBucket + '/' + srcKey +
       ' and uploaded to ' + dstBucket + '/' + dstKey);
 };
             
