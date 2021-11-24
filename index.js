@@ -78,4 +78,3 @@ exports.handler = async (event, context, callback) => {
   console.log('Successfully resized ' + srcBucket + '/' + srcKey +
       ' and uploaded to ' + dstBucket + '/' + dstKey);
 };
-            
